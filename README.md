@@ -14,7 +14,7 @@ Instalar las librerías necesarias.
 pip install cryptography
 ```
 
-Correr el archivo.
+Correr el archivo (Suponiendo que se encuentra en el directorio del proyecto).
 
 ```python
 python image_encryption.py
