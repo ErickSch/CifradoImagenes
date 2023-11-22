@@ -56,15 +56,13 @@ def image_to_binary(filename):
     with open(binary_filename, 'wb') as file:
         file.write(binary)
 
-
-# filename_cifrado = 'perro.bin'
-# filename_imagen = 'perro.jpeg'
-
+# Input del usuario
 filename_imagen = input("Ingresa el nombre de la imagen (Debe de estar en el mismo directorio): ")
 
 # La imagen cifrada se encuentra en perro.bin
 image_to_binary(filename_imagen)
 
+# Obtener el nombre del archivo
 filename_cifrado = filename_imagen.split(".")[0] + ".bin"
 
 # La imagen descifrada se encuentra en perro.jpeg
